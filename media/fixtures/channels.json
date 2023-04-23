@@ -1,0 +1,96 @@
+[
+{
+    "model": "media.channel",
+    "pk": "0f19444a-e093-11ed-8ab7-0242ac110002",
+    "fields": {
+        "title": "Breaking Bad",
+        "language": "English",
+        "picture": "https://example.com/breaking_bad.jpg",
+        "slug": "breaking-bad",
+        "contents": [],
+        "subchannels": [
+            "2c6dd846-4623-4606-918a-5b5d5c5b57e7",
+            "9e13b34e-9434-440a-b311-5f688a5d5ee5",
+            "d06b9a18-7e74-4102-af7a-8a461b656501"
+        ]
+    }
+},
+{
+    "model": "media.channel",
+    "pk": "2c6dd846-4623-4606-918a-5b5d5c5b57e7",
+    "fields": {
+        "title": "Breaking Bad Season 3",
+        "language": "English",
+        "picture": "https://example.com/breaking_bad.jpg",
+        "slug": "breaking-bad-season-3",
+        "contents": [
+            "57a68ee7-5ab4-42c0-9d66-fa6606f33c39",
+            "c2a2b78c-f0c3-4910-b247-c8d21b82d91a",
+            "cb56a684-e142-4ce3-8cc2-8b7ccba9a9a7"
+        ],
+        "subchannels": []
+    }
+},
+{
+    "model": "media.channel",
+    "pk": "5c5d3aa5-bd6f-47af-91b6-c2e8797b8f71",
+    "fields": {
+        "title": "Movies",
+        "language": "English",
+        "picture": "https://example.com/movies.jpg",
+        "slug": "movies",
+        "contents": [
+            "c02ebf46-7c34-4a04-a2e1-69ef1fb59f63",
+            "c8b2f521-833d-465d-9c0b-37ecb6e920c6",
+            "d7f79c08-4d7a-4ed1-8d22-6863c3d14629"
+        ],
+        "subchannels": []
+    }
+},
+{
+    "model": "media.channel",
+    "pk": "9e13b34e-9434-440a-b311-5f688a5d5ee5",
+    "fields": {
+        "title": "Breaking Bad Season 2",
+        "language": "English",
+        "picture": "https://example.com/breaking_bad.jpg",
+        "slug": "breaking-bad-season-2",
+        "contents": [
+            "14cfc418-00d8-4ecf-b8cc-cf9f88891407",
+            "b9c8cf23-f75d-417d-9814-2a87e73b1c91",
+            "f7d648c6-f8e4-4b9d-93a9-3b7e6803cbe3"
+        ],
+        "subchannels": []
+    }
+},
+{
+    "model": "media.channel",
+    "pk": "a118cb10-10c2-4d4a-af2a-d951b0123d3b",
+    "fields": {
+        "title": "TV  Shows",
+        "language": "English",
+        "picture": "https://example.com/tv-show.jpg",
+        "slug": "tv-show",
+        "contents": [],
+        "subchannels": [
+            "0f19444a-e093-11ed-8ab7-0242ac110002"
+        ]
+    }
+},
+{
+    "model": "media.channel",
+    "pk": "d06b9a18-7e74-4102-af7a-8a461b656501",
+    "fields": {
+        "title": "Breaking Bad Season 1",
+        "language": "English",
+        "picture": "https://example.com/breaking_bad.jpg",
+        "slug": "breaking-bad-season-1",
+        "contents": [
+            "a8d0eb5d-a5da-44c5-a556-d5f7998a99a7",
+            "b9d9d17f-764e-4a99-8745-15e00b3e3c8a",
+            "f8d90a0a-79f8-4c87-b9b9-6a03d8a7e87e"
+        ],
+        "subchannels": []
+    }
+}
+]

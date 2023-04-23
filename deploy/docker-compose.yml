@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: immfly
+      MYSQL_ROOT_PASSWORD: admin
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
